@@ -1,7 +1,7 @@
 # NORCO 非公式日本語化パッチ
 
 [NORCO](https://store.steampowered.com/app/1221250/NORCO/) (開発: Geography of Robots、パブリッシャー: Raw Fury) のテキストを日本語で表示する非公式の翻訳パッチです。
-ゲームのファイルは書き換えず、[BepInEx](https://github.com/BepInEx/BepInEx) のプラグインとして起動時にテキストを差し替えます。
+ゲームのファイルを書き換えたりはせず、[BepInEx](https://github.com/BepInEx/BepInEx) のプラグインとして起動時にテキストを差し替えます。
 
 個人の趣味の制作物になります。開発元・パブリッシャーとは関係ありません。
 
@@ -24,11 +24,11 @@
 
 1. Steam のライブラリで NORCO を右クリックし、「管理」→「ローカルファイルを閲覧」でゲームフォルダを開きます
 2. ダウンロードした zip の中身を、`norco.exe` と同じ場所にそのまま入れます
-    * `winhttp.dll` と `BepInEx` フォルダが `norco.exe` と並んでいれば正しい配置です
+    * `winhttp.dll` と `BepInEx` フォルダが `norco.exe` と並んでいればOKです
 3. ゲームを起動し、Settings の Language で「日本語」を選びます
    * パッチが正しく動作していない場合は、「日本語」メニューは表示されません。
 
-詳しい手順と、動かないときの確認方法は zip に同梱の `README-NorcoJP.txt` にあります。
+少し詳しい手順と、動かないときの確認方法は zip に同梱の `README-NorcoJP.txt` にあります。
 
 ## 外し方
 
@@ -47,11 +47,11 @@
 ## 同梱物とライセンス
 
 zip には BepInEx (MIT), UnityDoorstop (LGPL-2.1, `winhttp.dll`), HarmonyX・MonoMod・Mono.Cecil (MIT), BudouX (Apache License 2.0), Noto Serif JP (SIL Open Font License 1.1) を同梱しています。
-一覧と各ライセンスの全文は zip 内の `NorcoJP-third-party/THIRD-PARTY-NOTICES.txt` とその隣のファイルにあります。
+一覧と各ライセンスの全文は zip 内の `NorcoJP-third-party/THIRD-PARTY-NOTICES.txt` とその同じフォルダ内にあります。
 
 ## 連絡先
 
-誤訳や不具合に気づいた点があれば、[Bluesky](https://bsky.app/profile/sumirodon4.bsky.social) でお知らせください。
+誤訳や不具合に気づいた点があれば、[Bluesky](https://bsky.app/profile/sumirodon4.bsky.social) 等でお知らせください。
 
 ## 許可について
 
