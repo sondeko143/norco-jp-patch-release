@@ -24,7 +24,11 @@
 
 1. Steam のライブラリで NORCO を右クリックし、「管理」→「ローカルファイルを閲覧」でゲームフォルダを開きます
 2. ダウンロードした zip の中身を、`norco.exe` と同じ場所にそのまま入れます
-    * `winhttp.dll` と `BepInEx` フォルダが `norco.exe` と並んでいればOKです
+    * 以下のファイル/フォルダが `norco.exe` と並んでいればOKです
+    * `BepInEx` フォルダ
+    * `.doorstop_version`
+    * `doorstop_config.ini`
+    * `winhttp.dll`
 3. ゲームを起動し、Settings の Language で「日本語」を選びます
    * パッチが正しく動作していない場合は、「日本語」メニューは表示されません。
 
